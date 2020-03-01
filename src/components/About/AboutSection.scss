@@ -1,0 +1,14 @@
+.headshot {
+    border-radius: 100%;
+    border: 2px solid #555;
+    height: 250px;
+    margin: auto auto 20px;
+    overflow: hidden;
+    width: 250px;
+    img {
+        height: 320px;
+        position: relative;
+        top: -30px;
+        right: 30px;
+    }
+}
