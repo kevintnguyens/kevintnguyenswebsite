@@ -11,11 +11,12 @@ ScrollReveal().reveal('.feature',
     viewOffset: {
         top: 40
 }});
-ScrollReveal().reveal('.skill-panel', 
+ScrollReveal().reveal('.isotope-container', 
 { duration: 2000 ,
     viewOffset: {
         top: 40
 }});
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

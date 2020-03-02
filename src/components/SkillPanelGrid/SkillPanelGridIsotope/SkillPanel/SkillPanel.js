@@ -6,7 +6,7 @@ class SkillPanel extends Component {
         super(props);    }
     render () {
         return(
-            <a href = {this.props.url} >
+            <a href = {this.props.url} Data-Type={this.props["Data-Type"]}>
                 
             <div className="skill-panel-grid__item">
                 {this.props.Icon}
