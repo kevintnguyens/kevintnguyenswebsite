@@ -18,7 +18,7 @@ function Python() {
 
 	)
 }
-function MySql() {
+function Default() {
 	return (
         <svg viewBox="0 0 128 128">
         <path className="cls-2" d="M105.72,54.9,73.14,39.42l-1.83-.9-1.12,2.28L64,53.41V68.3l9.15-18.08,21.5,9.57L71.56,70.16l-.87.47,0,1.56v6.18l0,3.14L73,80.38l32.78-15.69a2,2,0,0,0,.92-2V56.91A2,2,0,0,0,105.72,54.9Z"></path><path className="cls-1" d="M56,69.39l-21.79-9.6L57.51,49.42l1.76-.7,0-1.33V37.76L55.87,39.2,21.94,54.89a2.26,2.26,0,0,0-1.28,2v5.77a2.22,2.22,0,0,0,1.24,2L55.34,80.18l2,.9,1.21-2.26L64,68.3V53.41Z"></path>
@@ -212,7 +212,7 @@ class SkillPanelIsotope extends Component {
             <div className="isotope-container">
                 <SkillPanel Icon={<CSharp/>} url="https://docs.microsoft.com/en-us/dotnet/csharp/" language="c#" data-type="1"/>
                 <SkillPanel Icon={<CplusPlus/>} url="http://www.cplusplus.com/" language="c++" data-type="1"/>
-                <SkillPanel Icon={<MySql/>}  url="https://www.microsoft.com/en-us/sql-server/default.aspx" language="SQL" data-type="1"/>
+                <SkillPanel Icon={<Default/>}  url="https://www.microsoft.com/en-us/sql-server/default.aspx" language="SQL" data-type="1"/>
                 <SkillPanel Icon={<Python/>} url="https://www.python.org/" language="python" data-type="1"/>
                 <SkillPanel Icon={<Css/>}    url="https://www.w3schools.com/css/" language="css" data-type="1"/>
                 <SkillPanel Icon={<Sass/>}   url="https://sass-lang.com/" language="sass" data-type="2"/>
@@ -221,7 +221,7 @@ class SkillPanelIsotope extends Component {
                 <SkillPanel Icon={<JavaScript/>}  url="https://www.w3schools.com/js/" language="JS" data-type="1"/>
                 <SkillPanel Icon={<TypeScript/>}  url="https://www.typescriptlang.org/" language="TS" data-type="1"/>
                 <SkillPanel Icon={<Linux/> } url="https://www.linux.org/" language="Linux" data-type="2"/>
-                <SkillPanel Icon={<Windows/> } url="https://www.drupal.org/" language="Windows" data-type="2"/>
+                <SkillPanel Icon={<Windows/> } url="https://www.microsoft.com/en-us/windows" language="Windows" data-type="2"/>
                 <SkillPanel Icon={<GitHub/> } url="https://github.com/" language="GitHub" data-type="2"/>
                 <SkillPanel Icon={<Git/> } url="https://git-scm.com/" language="Git" data-type="2"/>
                 <SkillPanel Icon={<Docker/> } url="https://www.docker.com/" language="Docker" data-type="2"/>
@@ -229,13 +229,13 @@ class SkillPanelIsotope extends Component {
                 <SkillPanel Icon={<PHP/> } url="https://www.php.net/" language="PHP" data-type="1"/>
                 <SkillPanel Icon={<ReactJS/> } url="https://reactjs.org/" language="React" data-type="2"/>
                 <SkillPanel Icon={<Angular/> } url="https://angular.io/" language="Angular" data-type="2"/>
-                <SkillPanel Icon={<MySql/> } url="#skills" language="Sking" data-type="3"/>
-                <SkillPanel Icon={<MySql/>} url="#skills" language="Cooking" data-type="3"/>
-                <SkillPanel Icon={<MySql/> } url="#skills" language="Crafts" data-type="3"/>
+                <SkillPanel Icon={<Default/> } url="#skills" language="Sking" data-type="3"/>
+                <SkillPanel Icon={<Default/>} url="#skills" language="Cooking" data-type="3"/>
+                <SkillPanel Icon={<Default/> } url="#skills" language="Crafts" data-type="3"/>
                 <SkillPanel Icon={<div/> } url="#skills" language="Hearth Stone" data-type="3"/>
-                <SkillPanel Icon={<MySql/> } url="#skills" language="Salsa" data-type="3"/>
-                <SkillPanel Icon={<MySql/> } url="#skills" language="Bachata" data-type="3"/>
-                <SkillPanel Icon={<MySql/> } url="#skills" language="Gym" data-type="3"/>
+                <SkillPanel Icon={<Default/> } url="#skills" language="Salsa" data-type="3"/>
+                <SkillPanel Icon={<Default/> } url="#skills" language="Bachata" data-type="3"/>
+                <SkillPanel Icon={<Default/> } url="#skills" language="Gym" data-type="3"/>
             </div>
         )
     }

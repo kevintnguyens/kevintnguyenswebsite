@@ -3606,6 +3606,11 @@ button:focus {outline:0;}
 		}
 
 /* Header */
+@media only screen and (max-width: 480px) {
+	.mobile--hidden {
+		display: none;;
+	}
+}
 
 	body {
 		padding-top: 3.125em;
